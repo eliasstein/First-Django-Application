@@ -2,7 +2,7 @@
     "builds": [{
         "src": "password_generator/wsgi.py",
         "use": "@natanffs/vercel-python-wsgi",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.7" }
+        "config": { "maxLambdaSize": "15mb"}
     }],
     "routes": [
         {
